@@ -1,0 +1,58 @@
+.new-logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+/* .thor {
+    max-height: 60%;
+    max-width: 60%;
+} */
+.logon-container { 
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logon-container section.form { 
+    width: 100%;
+    max-width: 350px;
+    margin-right: 30px;
+
+}
+.logon-container section.form form { 
+    margin-top: 2.4rem;
+}
+
+.logon-container section.form form h1 {
+    font-size: 32px;
+    /* margin-bottom:0.8rem; */
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.darkdiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.darkk {
+    position: absolute;
+    right: 1rem;
+    top: 0;
+    width: fit-content;
+}
+
+
+.backk {
+    position: absolute;
+    left: 1rem;
+    top: 0;
+    width: fit-content;
+}
